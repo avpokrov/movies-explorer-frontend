@@ -1,0 +1,21 @@
+.Header {
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 320px;
+    display: flex;
+    height: 100%;
+    background-color:aqua;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Header__block{
+    width: 44px;
+  }
+
+  .Header__test {
+    display: flex;
+    align-items: center;
+  }
+
