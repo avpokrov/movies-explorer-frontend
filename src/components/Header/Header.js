@@ -5,12 +5,7 @@ import Navigation from '../Navigation/Navigation';
 function Header() {
     return (
         <div className='Header'>
-            <div className='Header__test'>
-                <Logo/>
-                <div className='Header__block'></div>
-                <Navigation />
-            </div>
-            <div className='Header__test'>
+            <div className='Header__block-menu'>
                 <Logo/>
                 <div className='Header__block'></div>
                 <Navigation />
