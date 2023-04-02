@@ -13,3 +13,7 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.Navigation__link:last-child {
+    margin-right: 0;
+}

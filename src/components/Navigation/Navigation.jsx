@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 import './Navigation.css';
 
-function Navigation () {
+function Navigation (props) {
+    const {menu} = props;
     return (
         <nav className="Navigation">
-            <Link to="/movies" className="Navigation__link">
-                Фильмы
-            </Link>
-            <Link to="/saved-movies" className="Navigation__link">
-                Сохраеннные фильмы
-            </Link>    
+            {menu.map((item, i) => (
+                <Link key={i} to={item.route} className="Navigation__link">
+                    {item.name}
+                </Link>
+            ))}
         </nav>
-    );
+        )
 }
 
 export default Navigation;
