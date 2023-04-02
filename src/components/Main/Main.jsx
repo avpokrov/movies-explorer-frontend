@@ -1,9 +1,9 @@
 import './Main.css';
+import Promo from './Promo/Promo';
 
 function Main () {
     return (
-        <p>test</p>
-
+        <Promo/>
     );
 }
 
