@@ -1,0 +1,17 @@
+.Heading__header {
+    width: 100%;
+    text-align: left;
+    margin: 110px 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.Heading__header-border{
+    max-width: 100%;
+    margin-top: 23px;
+    border-top: 1px solid #DADADA;
+}
