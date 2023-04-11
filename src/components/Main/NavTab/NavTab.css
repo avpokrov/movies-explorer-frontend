@@ -1,11 +1,11 @@
 .NavTab {
-    margin-top: 158px;
-    display: grid;
+    display: flex;
     grid-column-gap: 10px;
-    grid-template-columns: 96px 96px 96px;
+    grid-template-columns: 96px;
 }
 
 .navTab__element{
+    width: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
