@@ -1,0 +1,40 @@
+.Portfolio__main {
+    width: 95%;
+    margin-top: 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.Portfolio__header {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #8B8B8B;
+}
+
+.Portfolio__menu_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.Portfolio__menu_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Portfolio__link {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFFFFF;
+}

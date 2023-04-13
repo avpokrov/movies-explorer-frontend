@@ -36,7 +36,8 @@ function Techs () {
                     <p className='Techs__text'>На курсе веб-разработки мы освоили технологии, 
                          которые применили в дипломном проекте.
                     </p>
-                    <NavTab elementsMenu={elementsMenu}/>
+                    <div className='Techs__margin'></div>
+                    <NavTab elementsMenu={elementsMenu} typeMenu='type2'/>
                 </div>
                 
             </div>

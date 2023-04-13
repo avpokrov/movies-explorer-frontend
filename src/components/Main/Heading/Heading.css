@@ -11,7 +11,7 @@
 }
 
 .Heading__header-border{
-    max-width: 100%;
+    width: 100%;
     margin-top: 23px;
     border-top: 1px solid #DADADA;
 }

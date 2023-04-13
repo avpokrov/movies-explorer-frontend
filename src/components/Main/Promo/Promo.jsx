@@ -16,7 +16,8 @@ function Promo() {
     return (
         <section className="Promo__main">
             <h1 className="Promo__title">Учебный проект студента факультета Веб-разработки.</h1>
-            <NavTab elementsMenu={elementsMenu}/>
+            <div className='Promo__block'></div>
+            <NavTab elementsMenu={elementsMenu} typeMenu='type1'/>
         </section>
     );
 }
