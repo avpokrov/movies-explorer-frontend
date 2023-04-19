@@ -1,0 +1,47 @@
+.Footer {
+    width: 95%;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer__text{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer__heading{
+    margin: 79px 0 0 0;
+    color: #8B8B8B;
+}
+
+.Footer__border {
+    width: 100%;
+    margin: 20px 0;
+    border-top: 1px #424242;
+}
+
+.Footer__block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Footer__block_right {
+    display: flex;
+}
+
+.Footer__link {
+    display: flex;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+

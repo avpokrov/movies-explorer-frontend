@@ -7,7 +7,7 @@
 }
 
 .Portfolio__header {
-    margin: 0;
+    margin: 0 0 50px 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -25,16 +25,38 @@
 
 .Portfolio__menu_item {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .Portfolio__link {
+    width: 100%;
     margin: 0;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Portfolio__link_header {
+    margin: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 50px;
     color: #FFFFFF;
+}
+
+.Portfolio__link-img {
+    align-self: flex-start;
+}
+
+.Portfolio__menu_border{
+    width: 100%;
+    margin: 19px 0 20px 0;
+    border-top: 1px solid #424242;
+}
+
+.Portfolio__block {
+    height: 85px;
 }
